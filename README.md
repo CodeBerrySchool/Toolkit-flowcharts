@@ -17,6 +17,7 @@ flowchart TB
     id1(Curriculum metadata)
   end
   
+  Creator(Curriculum Creator) --> Curriculum
   Extension <--> CB-API
   Lesson --> |user, context| HUB
   Lesson <--> CB-API

@@ -31,5 +31,5 @@ flowchart TB
   style Orange fill:#FFA500,stroke:#333
 ```
 
-[Mermaid basic syntax](https://mermaid-js.github.io/mermaid/#/flowchart)
-[Live flowchart editor](https://mermaid-js.github.io/mermaid-live-editor/)
+- [Mermaid basic syntax](https://mermaid-js.github.io/mermaid/#/flowchart)
+- [Live flowchart editor](https://mermaid-js.github.io/mermaid-live-editor/)

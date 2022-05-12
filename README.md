@@ -21,11 +21,11 @@ flowchart TB
   end
   
   Creator(Curriculum Creator) --> Curriculum
-  Extension <--> CB-API
-  Lesson --> |user, context| HUB
+  Extension <--> |LTI candidate 2: <br /> submissions| CB-API
+  Lesson --> |LTI candidate 1: <br /> user, context| HUB
   Lesson <--> CB-API
   HUB --> Workspace
-  Curriculum --> |metadata| HUB
+  Curriculum --> |LTI candidate 3: <br /> metadata| HUB
   Templates --> |starter code, tests| HUB
   
   style Orange fill:#FFA500,stroke:#333
